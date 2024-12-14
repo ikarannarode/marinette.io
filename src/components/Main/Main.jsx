@@ -47,7 +47,7 @@ const Main = () => {
                         <div>
                             <img src={assets.gallery_icon} alt="" />
                             <img src={assets.mic_icon} alt="" />
-                            <img src={assets.send_icon} onClick={() => onSent()} alt="" />
+                            {input ? <img src={assets.send_icon} onClick={() => onSent()} alt="" /> : null}
                         </div>
                     </div>
                     <p className='bottom-info'>
