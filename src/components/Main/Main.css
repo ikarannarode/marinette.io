@@ -19,6 +19,8 @@
     color: rgb(15, 15, 49);
     font-size: 28px;
     font-weight: 200;
+    text-shadow: 3px 3px rgb(197, 195, 195);
+
 }
 
 .main .nav img {
