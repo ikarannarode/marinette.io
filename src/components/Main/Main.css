@@ -14,6 +14,13 @@
     color: #585858
 }
 
+.main .nav p {
+
+    color: rgb(15, 15, 49);
+    font-size: 28px;
+    font-weight: 100;
+}
+
 .main .nav img {
     width: 40px;
     border-radius: 50%;
@@ -117,6 +124,12 @@
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
+    font-weight: 300;
+}
+
+.main .bottom-info span {
+    font-size: 10px;
+    color: #585858;
     font-weight: 300;
 }
 

@@ -15,7 +15,7 @@ const Main = () => {
             <div className="main-container">
                 {!showResult ? <>
                     <div className="greet">
-                        <p><span>Hello, Karan</span></p>
+                        <p><span>Hey, there</span></p>
                         <p>How can I help you today?</p>
                     </div>
                     <div className="cards">
@@ -52,6 +52,8 @@ const Main = () => {
                     </div>
                     <p className='bottom-info'>
                         marinette.io can make mistakes. Check important info.
+                        <br />
+                        <span>Made by KΔRΔN</span>
                     </p>
                 </div>
             </div>
